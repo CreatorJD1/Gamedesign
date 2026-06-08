@@ -1,0 +1,12 @@
+# Local server / tooling
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+dist/
+.venv/
+venv/
+
+# Large/streamed assets that should live on a CDN, not in git
+assets/source/MAPBGPACK.zip
+*.zip
